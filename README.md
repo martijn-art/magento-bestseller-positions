@@ -103,3 +103,7 @@ Every `--apply` first saves the existing positions to `var/bestseller-positions/
 - The page cache is cleaned on every run that changes something, so schedule it at a quiet hour.
 - A grouped product gets no orders of its own; they count on the products inside it.
 - Tested against a copy of the Magento tables on MariaDB 10.11 with PHP 8.3. Start with a dry run on your own shop.
+
+## License
+
+MIT. See [LICENSE](LICENSE).
